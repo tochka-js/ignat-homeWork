@@ -1,0 +1,44 @@
+.app {
+    background-color: #18191D;
+    border: 1px solid;
+    height: 100vh;
+    width: 60%;
+    display: flex;
+    justify-content: flex-start;
+    margin: 0px 0px 0px 250px;
+
+}
+
+
+.message {
+    border-radius: 10px 10px 10px 0px;
+    width: 250px;
+    height: 50px;
+    margin: 100px 0px 0px 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #33393F;
+
+}
+.message:before {
+    content: "";
+    margin: 0px 90px 10px 0px;
+    border: 18px solid transparent;
+    border-right: 18px solid #33393F;
+    border-bottom: 18px solid #33393F;
+    position: absolute;
+    left: 370px;
+    top: 115px;
+}
+.message:after {
+    content: "";
+    position: absolute;
+    background-color: #18191D;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px 50px 50px 45px;
+    left: 356px;
+    top: 117px;
+}
+
